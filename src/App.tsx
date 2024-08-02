@@ -1,13 +1,5 @@
 import React from "react"
 
-declare global {
-    interface Window {
-        qtObject: {
-            sendSignal: (arg) => void;
-        };
-    }
-}
-
 export default function App() {
     return (
         <div>
