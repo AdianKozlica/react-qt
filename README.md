@@ -1,15 +1,20 @@
-# 🚀 Welcome to your new awesome project!
+Run using 
+```sh 
+python3 main.py
+```
 
-This project has been created using **webpack-cli**, you can now run
+# Build
 
 ```
 npm run build
 ```
 
-or
+# Development guide
 
 ```
-yarn build
+npm run watch
 ```
 
-to bundle your application
+```sh
+nodemon python3 main.py # nodemon is optional
+```
